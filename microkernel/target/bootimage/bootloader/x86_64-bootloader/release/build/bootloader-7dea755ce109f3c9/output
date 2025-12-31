@@ -1,7 +1,0 @@
-cargo:rerun-if-changed=/Users/francocuppari/microkernel/microkernel/Cargo.toml
-cargo:rustc-link-search=native=/Users/francocuppari/microkernel/microkernel/target/bootimage/bootloader/x86_64-bootloader/release/build/bootloader-7dea755ce109f3c9/out
-cargo:rustc-link-lib=static=kernel_bin-microkernel
-cargo:rerun-if-env-changed=KERNEL
-cargo:rerun-if-env-changed=KERNEL_MANIFEST
-cargo:rerun-if-changed=/Users/francocuppari/microkernel/microkernel/target/x86_64-microkernel/debug/microkernel
-cargo:rerun-if-changed=build.rs
